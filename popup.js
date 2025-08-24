@@ -278,3 +278,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const helpLink = document.getElementById("how-calculated");
+    const infoBox = document.getElementById("calculation-info");
+    const closeBtn = document.getElementById("close-info");
+
+    helpLink.addEventListener("click", (e) => {
+        e.preventDefault();
+        infoBox.style.display = "block";
+    });
+
+    closeBtn.addEventListener("click", () => {
+        infoBox.style.display = "none";
+    });
+});

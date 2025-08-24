@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ProductScore - Laptop/Monitor Extension",
-  "version": "2.0",
+  "version": "1.0",
   "description": "Analyzes laptop and monitor specifications and provides a quality score",
   "permissions": ["activeTab"],
   "action": {
