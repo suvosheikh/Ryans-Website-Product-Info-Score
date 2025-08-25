@@ -16,6 +16,7 @@ A simple Chrome Extension that automatically extracts and displays **Model** and
 6. Click the extension icon to view Model and Processor details.  
 
 ## 📂 Project Structure
+```plaintext
 ProductInfoExtension/
 │── manifest.json
 │── background.js
@@ -23,7 +24,7 @@ ProductInfoExtension/
 │── popup.html
 │── popup.js
 │── icons/
-│ └── icon.png
+│   └── icon.png
 
 
 ## 📜 License
